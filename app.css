@@ -1,0 +1,56 @@
+body{
+	background: white;
+}
+
+h1{
+ 	color:black;
+ 	background-color:grey;
+ 	text-decoration: underline;
+}
+
+.memes{
+	color:black;
+	border:1px solid grey;
+	/*
+	border-color:black;
+	border-width: 1px;
+	border-style: solid;
+*/
+}
+
+#completed{
+	color:red;
+	text-decoration: line-through;
+}
+
+h4{
+	color:red;
+}
+
+/*selcetors*/
+
+/*star*/
+*{
+	/*aplies to everything*/
+}
+
+/*descendant selcetor*/
+li a{
+	/*selects all a tags in a li*/
+}
+
+/*ajacent selcetor*/
+h4 + ul{
+	/*ul's after a h4 on the same level*/
+}
+
+/*atribute selector*/
+a[href='http:www.google.com']{
+	/*selects all a tags 
+	with href equel to googlr.com*/
+}
+
+/*nth of type*/
+ul:nth-of-type(3){
+	/*selects every 3rd in a group ul*/
+}
